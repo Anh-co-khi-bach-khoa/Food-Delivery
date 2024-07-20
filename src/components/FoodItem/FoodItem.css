@@ -59,6 +59,11 @@
     border-radius: 50px;
     padding: 5px;
 }
+
+.food-item-counter img{
+    cursor: pointer;
+}
+
 .food-item-counter img{
     width: 30px;
 }
