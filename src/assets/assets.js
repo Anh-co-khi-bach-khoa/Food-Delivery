@@ -1,7 +1,4 @@
-import basket_icon from './basket_icon.png'
-import logo from './logo.png'
-import header_img from './header_img.png'
-import search_icon from './search_icon.png'
+import header_img from './header_img.jpg'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
@@ -44,6 +41,7 @@ import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
 
+import basket_icon from './basket_icon.png'
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
 import remove_icon_red from './remove_icon_red.png'
@@ -61,16 +59,14 @@ import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
 export const assets = {
-    logo,
-    basket_icon,
     header_img,
-    search_icon,
     rating_starts,
     add_icon_green,
     add_icon_white,
     remove_icon_red,
     app_store,
     play_store,
+    basket_icon,
     linkedin_icon,
     facebook_icon,
     twitter_icon,
@@ -84,267 +80,267 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Popsicle",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Cone Ice Cream",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Soft Serve",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Gelato",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Sorbet",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Frozen Yogurt",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Sundae",
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Milkshake",
         menu_image: menu_8
     }]
 
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Orange Popsicle",
         image: food_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 10,
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Popsicle"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Chocolate Popsicle",
         image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 15,
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Popsicle"
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "Bluberry Popsicle",
         image: food_3,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Popsicle"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "Strawberry Popsicle",
         image: food_4,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Popsicle"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Vanilla Cone Ice Cream",
         image: food_5,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Cone Ice Cream"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Matcha Cone Ice Cream",
         image: food_6,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Cone Ice Cream"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Chocolate Cone Ice Cream",
         image: food_7,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Cone Ice Cream"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Strawberry Cone Ice Cream",
         image: food_8,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Strawberry Cone Ice Cream"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Pineapple Soft Serve",
         image: food_9,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Soft Serve"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Vanilla Soft Serve",
         image: food_10,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Soft Serve"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Cereal Milk Soft Serve",
         image: food_11,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Soft Serve"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Matcha Soft Serve",
         image: food_12,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Soft Serve"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Raspberry Gelato",
         image: food_13,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Gelato"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Matcha Gelato",
         image: food_14,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Gelato"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Stavolta Gelato",
         image: food_15,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Gelato"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Vani Gelato",
         image: food_16,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Gelato"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Simple Blood Orange Sorbet",
         image: food_17,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Sorbet"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Strawberry Sorbet",
         image: food_18,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Sorbet"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Cosmopolitan Sorbet",
         image: food_19,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Sorbet"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Peach Sorbet",
         image: food_20,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Sorbet"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Vegan Buleberry Frozen Yogurt",
         image: food_21,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Frozen Yogurt"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Leichtes Frozen Yogurt",
         image: food_22,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Frozen Yogurt"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Creamy Vanilla",
         image: food_23,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Frozen Yogurt"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Mago Vanilla",
         image: food_24,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Frozen Yogurt"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Brownie Sundae",
         image: food_25,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Sundae"
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "Chocolate Sundae",
         image: food_26,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Sundae"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "Strawberry Sundae",
         image: food_27,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Sundae"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Sobremesa Sundae",
         image: food_28,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Sundae"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Vanilla Milkshake",
         image: food_29,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Milkshake"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Chocolate Milkshake",
         image: food_30,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Milkshake"
     }, {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Strawberry Milkshake",
         image: food_31,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Milkshake"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "Banana Milkshake",
         image: food_32,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Ice cream brings joy in every scoop, satisfying your cravings with a moment of pure delight.",
+        category: "Milkshake"
     }
 ]

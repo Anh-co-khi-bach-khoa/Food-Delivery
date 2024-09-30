@@ -29,6 +29,9 @@
 .footer-content-left h2, .footer-content-center h2{
     color: white;
 }
+.footer-content-left .logo{
+    color: #e74c3c;
+}
 .footer-social-icons img{
     width: 40px;
     margin-right: 15px;
