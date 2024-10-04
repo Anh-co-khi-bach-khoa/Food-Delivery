@@ -1,14 +1,17 @@
 import React from 'react'
 import './Header.css'
-
+import {assets} from '../../assets/assets'
 const Header = () => {
   return (
     <div className='header'>
-        <div className="header-contents">
-            <h2>Order your favorite food here</h2>
-            <p>Choose from a diverse menu featuring a delectable array of dishes crated with the finest ingredients and culinary expertise. Our mission is to sastisfy your craving and elevate your dining experience, one delicious meal at a time</p>
-            <button>View Menu</button>
-        </div>
+      <div className="header-contents">
+          <h2>Order your favorite Ice-Cream here</h2>
+          <p>Explore our delightful menu of refreshing ice creams, crafted with the finest ingredients and a passion for perfection. Our mission is to satisfy your sweet cravings and elevate your dessert experience, one creamy scoop at a time.</p>
+          <a href="#food-display"><button>View Menu</button></a>
+      </div>
+      <div className="header-image">
+        <img src = {assets.header_img} alt="" />
+      </div>
     </div>
   )
 }
